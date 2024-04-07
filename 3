@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    int x, y;
+    float f;
+    printf("Введіть x та y ");
+    scanf("%d%d", &x, &y);
+    f = (x*x + log2(x*y)- y*y ) / (1+x*x+y*y);
+    printf("Значення функії = %f", f );
+
+    return 0;
+}
